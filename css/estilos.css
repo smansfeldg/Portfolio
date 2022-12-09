@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f4f4;
+}
+
+.pepito {
+    background-color: white !important;
+    border-radius: 30px !important;
+}
+
+.justificado { 
+    text-align: justify;
+}
+
+.linea {
+    border: none; height: 3px; /* Set the hr color */ color: #0c3071; /* old IE */ background-color: #0c3071; /* Modern Browsers */
+
+}
+
+.link {
+    color: #2d7bb7;
+    text-decoration: none;
+}
+
+/* .carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 500px;
+} */
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #2d7bb7 !important;
+    border: red;
+}
+
+.btn-primary:hover {
+    background-color: #0c3071 !important;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
